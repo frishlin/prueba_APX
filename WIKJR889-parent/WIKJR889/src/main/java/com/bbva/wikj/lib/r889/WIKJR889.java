@@ -4,7 +4,7 @@ import java.util.Map;
 
 public interface WIKJR889 {
 
-	Map<String, Object> executeSelect(String userid);
+	Map<String, Object> executeSelect(Long id);
 	int executeInsert(Map<String, Object> args);
 
 }

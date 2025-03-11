@@ -1,18 +1,18 @@
 package com.bbva.wikj.dto.user;
 
 public class DtoIn {
-    private Long number;
+    private Long id;
     private int nuip;
     private String fullname;
     private String phone;
     private String address;
 
-    public Long getNumber() {
-        return number;
+    public Long getId() {
+        return id;
     }
 
-    public void setNumber(Long number) {
-        this.number = number;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public int getNuip() {

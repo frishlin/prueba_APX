@@ -1,13 +1,12 @@
 package com.bbva.wikj.lib.r888;
 
-/**
- * The  interface WIKJR888 class...
- */
+
+import com.bbva.wikj.dto.user.DtoIn;
+import com.bbva.wikj.dto.user.DtoOut;
+
 public interface WIKJR888 {
 
-	/**
-	 * The execute method...
-	 */
-	void execute();
+	//void execute();
+	DtoOut execute(DtoIn dtoIn);
 
 }
