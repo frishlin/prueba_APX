@@ -18,10 +18,10 @@ public class WIKJR888Impl extends WIKJR888Abstract {
 		DtoOut dtoOut = new DtoOut();
 		Map<String, Object> args = new HashMap<>();
 		args.put("id", dtoIn.getId());
-		args.put("id", dtoIn.getNuip());
-		args.put("id", dtoIn.getFullname());
-		args.put("id", dtoIn.getPhone());
-		args.put("id", dtoIn.getAddress());
+		args.put("nuip", dtoIn.getNuip());
+		args.put("fullname", dtoIn.getFullname());
+		args.put("phone", dtoIn.getPhone());
+		args.put("address", dtoIn.getAddress());
 		int result = this.wikjR889.executeInsert(args);
 		if(result == 1) {
 			System.out.println("Tipo de dtoIn.getId(): " + (dtoIn.getId() != null ? dtoIn.getId().getClass() : "null"));
